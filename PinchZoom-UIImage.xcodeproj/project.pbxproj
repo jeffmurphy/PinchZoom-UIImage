@@ -24,6 +24,7 @@
 		7D8F6012174B01B70023ABCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8F5FEA174B01B70023ABCA /* Foundation.framework */; };
 		7D8F601A174B01B70023ABCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D8F6018174B01B70023ABCA /* InfoPlist.strings */; };
 		7D8F601D174B01B70023ABCA /* PinchZoom_UIImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8F601C174B01B70023ABCA /* PinchZoom_UIImageTests.m */; };
+		7D8F6027174B02EB0023ABCA /* pinchzoomexample.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8F6026174B02EB0023ABCA /* pinchzoomexample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		7D8F6019174B01B70023ABCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D8F601B174B01B70023ABCA /* PinchZoom_UIImageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchZoom_UIImageTests.h; sourceTree = "<group>"; };
 		7D8F601C174B01B70023ABCA /* PinchZoom_UIImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchZoom_UIImageTests.m; sourceTree = "<group>"; };
+		7D8F6026174B02EB0023ABCA /* pinchzoomexample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinchzoomexample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		7D8F5FEF174B01B70023ABCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D8F6026174B02EB0023ABCA /* pinchzoomexample.png */,
 				7D8F5FF0174B01B70023ABCA /* PinchZoom-UIImage-Info.plist */,
 				7D8F5FF1174B01B70023ABCA /* InfoPlist.strings */,
 				7D8F5FF4174B01B70023ABCA /* main.m */,
@@ -240,6 +243,7 @@
 				7D8F5FFF174B01B70023ABCA /* Default-568h@2x.png in Resources */,
 				7D8F6002174B01B70023ABCA /* MainStoryboard_iPhone.storyboard in Resources */,
 				7D8F6005174B01B70023ABCA /* MainStoryboard_iPad.storyboard in Resources */,
+				7D8F6027174B02EB0023ABCA /* pinchzoomexample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PinchZoom-UIImage/PinchZoom-UIImage-Prefix.pch";
 				INFOPLIST_FILE = "PinchZoom-UIImage/PinchZoom-UIImage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PinchZoom-UIImage/PinchZoom-UIImage-Prefix.pch";
 				INFOPLIST_FILE = "PinchZoom-UIImage/PinchZoom-UIImage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
